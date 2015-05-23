@@ -1,0 +1,105 @@
+.affilates {
+	width: 100%;
+	margin-bottom: 20px;
+}
+.affilates .head {
+	overflow: hidden;
+}
+.affilates li:last-child {
+	border: none !important;
+}
+.affilates .head  li {
+	border-right: 1px solid #DDDDDD;
+	white-space: nowrap;
+}
+.affilates  li {
+	color: #000000;
+	font-size: 14px;
+	float:left;
+	text-align: center;
+	width: 10%;
+	padding: 5px;
+	min-height: 21px;
+}
+.affilates  li:first-child {
+	width: 20%;
+}
+.affilates  li:nth-child(3) {
+	width: 43%;
+}
+.affilates .head ul {
+	font-weight: bold;
+	background: #F7F7F7;
+	text-align: center;
+	overflow: hidden;
+	border: 1px solid #DDDDDD;
+    list-style-type: none;
+	padding-left: 10px;
+}
+.affilates tr td:first-child {
+	font-weight: bold;
+	text-align: center;
+	width: 20%;
+	border-left:none;
+}
+.affilates .tbody ul {
+	color: #4D4D4D;
+	overflow: hidden;
+	background: #F7F7F7;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+    list-style-type: none;
+	padding-left: 10px;
+}
+
+.affilates .tbody li:nth-child(2) {
+	text-align: center;
+}
+.affilates .tbody li:nth-child(4) {
+	font-size: 20px;
+	text-align: center;
+}
+.affilates .tbody li:nth-child(5) {
+	text-align: center;
+	padding-right: 0px;
+}
+.affilates .tbody .desc{
+	display:none;
+}
+.buttons{
+	background: rgb(252, 150, 88);
+	background: -moz-linear-gradient(90deg, rgb(252, 150, 88) 0%, rgb(217, 73, 0) 83%);
+	background: -webkit-linear-gradient(90deg, rgb(252, 150, 88) 0%, rgb(217, 73, 0) 83%);
+	background: -o-linear-gradient(90deg, rgb(252, 150, 88) 0%, rgb(217, 73, 0) 83%);
+	background: -ms-linear-gradient(90deg, rgb(252, 150, 88) 0%, rgb(217, 73, 0) 83%);
+	background: linear-gradient(180deg, rgb(252, 150, 88) 0%, rgb(217, 73, 0) 83%);
+	padding: 5px;
+	color: #fff;
+	border: 1px solid #e27d45;
+	border-radius: 5px;
+	font-size: 20px;
+	margin: 0px;
+}
+.buttons:hover {
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+/* Iphone 5 landscape */
+@media only screen and (max-width: 979px) {
+	.affilates .head, .affilates .tbody ul li:nth-child(3)  {
+		display:none;
+	}
+	.affilates .tbody ul {
+		border: 1px solid #DDDDDD;
+		border-radius: 10px;
+	}
+	.affilates .tbody ul li {
+		width: 22%;
+	}
+	.affilates .tbody .desc{
+	display:block;
+	width: 100%;
+	}
+}

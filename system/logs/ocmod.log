@@ -1,0 +1,1507 @@
+2015-05-17 4:58:23 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'], 'SSL')),
+LINE: 132
+CODE: public function unzip() {
+LINE: 282
+----------------------------------------------------------------
+2015-05-17 4:59:30 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'], 'SSL')),
+LINE: 132
+CODE: public function unzip() {
+LINE: 282
+----------------------------------------------------------------
+MOD: Product Affilate
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 10
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css');
+LINE: 237
+CODE: $data['tags'] = array();
+LINE: 619
+CODE: if ((float)$product_info['special']) {
+LINE: 329
+FILE: catalog/controller/module/featured.php
+CODE: if ((float)$product_info['special']) {
+LINE: 52
+FILE: catalog/controller/module/latest.php
+CODE: if ((float)$result['special']) {
+LINE: 52
+FILE: catalog/controller/module/special.php
+CODE: if ((float)$result['special']) {
+LINE: 50
+FILE: catalog/controller/module/bestseller.php
+CODE: if ((float)$result['special']) {
+LINE: 43
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 361
+CODE: $data['products'][] = array(
+LINE: 384
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+FILE: catalog/controller/checkout/cart.php
+CODE: public function index() {
+LINE: 13
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 38
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 58
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 208
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 390
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 54
+CODE: <?php echo $cart; ?>
+LINE: 98
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+LINE: 78
+CODE: <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
+LINE: 89
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: admin/controller/catalog/product.php
+CODE: $data['product_options'] = array();
+LINE: 1276
+CODE: $data['tab_general'] = $this->language->get('tab_general');
+LINE: 631
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("DELETE FROM `" . DB_PREFIX . "product_recurring` WHERE product_id = " . (int)$product_id);
+LINE: 281
+CODE: $product_id = $this->db->getLastId();
+LINE: 20
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 956
+CODE: <?php echo $footer; ?>
+LINE: 1542
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_name']             = 'Product Name';
+LINE: 36
+----------------------------------------------------------------
+2015-05-17 5:00:09 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'], 'SSL')),
+LINE: 132
+CODE: public function unzip() {
+LINE: 282
+----------------------------------------------------------------
+MOD: Product Affilate
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 10
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css');
+LINE: 237
+CODE: $data['tags'] = array();
+LINE: 619
+CODE: if ((float)$product_info['special']) {
+LINE: 329
+FILE: catalog/controller/module/featured.php
+CODE: if ((float)$product_info['special']) {
+LINE: 52
+FILE: catalog/controller/module/latest.php
+CODE: if ((float)$result['special']) {
+LINE: 52
+FILE: catalog/controller/module/special.php
+CODE: if ((float)$result['special']) {
+LINE: 50
+FILE: catalog/controller/module/bestseller.php
+CODE: if ((float)$result['special']) {
+LINE: 43
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 361
+CODE: $data['products'][] = array(
+LINE: 384
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+FILE: catalog/controller/checkout/cart.php
+CODE: public function index() {
+LINE: 13
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 38
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 58
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 208
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 390
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 54
+CODE: <?php echo $cart; ?>
+LINE: 98
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+LINE: 78
+CODE: <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
+LINE: 89
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: admin/controller/catalog/product.php
+CODE: $data['product_options'] = array();
+LINE: 1276
+CODE: $data['tab_general'] = $this->language->get('tab_general');
+LINE: 631
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("DELETE FROM `" . DB_PREFIX . "product_recurring` WHERE product_id = " . (int)$product_id);
+LINE: 281
+CODE: $product_id = $this->db->getLastId();
+LINE: 20
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 956
+CODE: <?php echo $footer; ?>
+LINE: 1542
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_name']             = 'Product Name';
+LINE: 36
+----------------------------------------------------------------
+2015-05-17 7:37:06 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'], 'SSL')),
+LINE: 132
+CODE: public function unzip() {
+LINE: 282
+----------------------------------------------------------------
+MOD: Product Affilate
+FILE: catalog/controller/product/product.php
+CODE: public function index() {
+LINE: 10
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css');
+LINE: 237
+CODE: $data['tags'] = array();
+LINE: 619
+CODE: if ((float)$product_info['special']) {
+LINE: 329
+FILE: catalog/controller/module/featured.php
+CODE: if ((float)$product_info['special']) {
+LINE: 52
+FILE: catalog/controller/module/latest.php
+CODE: if ((float)$result['special']) {
+LINE: 52
+FILE: catalog/controller/module/special.php
+CODE: if ((float)$result['special']) {
+LINE: 50
+FILE: catalog/controller/module/bestseller.php
+CODE: if ((float)$result['special']) {
+LINE: 43
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 361
+CODE: $data['products'][] = array(
+LINE: 384
+FILE: catalog/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+FILE: catalog/controller/checkout/cart.php
+CODE: public function index() {
+LINE: 13
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 38
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 58
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 208
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 390
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 54
+CODE: <?php echo $cart; ?>
+LINE: 98
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+LINE: 78
+CODE: <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
+LINE: 89
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: admin/controller/catalog/product.php
+CODE: $data['product_options'] = array();
+LINE: 1276
+CODE: $data['tab_general'] = $this->language->get('tab_general');
+LINE: 631
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("DELETE FROM `" . DB_PREFIX . "product_recurring` WHERE product_id = " . (int)$product_id);
+LINE: 281
+CODE: $product_id = $this->db->getLastId();
+LINE: 20
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 956
+CODE: <?php echo $footer; ?>
+LINE: 1542
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_name']             = 'Product Name';
+LINE: 36
+----------------------------------------------------------------
+2015-05-17 7:55:57 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Journal2
+CODE: public function __construct($registry) {
+LINE: 15
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 14
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a class="parent"><?php echo $text_marketing; ?></a>
+LINE: 200
+FILE: admin/controller/marketing/contact.php
+CODE: $this->load->model('sale/customer');
+LINE: 98
+CODE: $email_total = $this->model_sale_customer->getTotalCustomers($customer_data);
+LINE: 124
+CODE: $results = $this->model_sale_customer->getCustomers($customer_data);
+LINE: 126
+FILE: admin/controller/tool/backup.php
+CODE: $this->error['warning'] = $this->language->get('error_empty');
+LINE: 25
+CODE: public function index() {
+LINE: 10
+FILE: admin/view/template/tool/backup.tpl
+CODE: <input type="file" name="import" id="input-import" />
+LINE: 36
+FILE: admin/model/tool/backup.php
+CODE: $values .= '\'' . $value . '\', ';
+LINE: 82
+CODE: $output .= 'TRUNCATE TABLE `' . $table . '`;' . "\n\n";
+LINE: 53
+CODE: $sql = trim($sql);
+LINE: 17
+FILE: catalog/controller/common/header.php
+CODE: $categories = $this->model_catalog_category->getCategories(0);
+LINE: 94
+FILE: catalog/controller/common/footer.php
+CODE: foreach ($this->model_catalog_information->getInformations() as $result) {
+LINE: 24
+FILE: system/library/response.php
+CODE: if ($this->output) {
+LINE: 83
+FILE: catalog/model/tool/image.php
+CODE: return $this->config->get('config_ssl') . 'image/' . $new_image;
+LINE: 37
+CODE: return $this->config->get('config_url') . 'image/' . $new_image;
+LINE: 39
+CODE: public function resize($filename, $width, $height) {
+LINE: 2
+CODE: $image->resize($width, $height);
+LINE: 29
+FILE: admin/model/extension/module.php
+CODE: $this->db->query("DELETE FROM `" . DB_PREFIX . "layout_module` WHERE `code` LIKE '%." . (int)$module_id . "'");
+LINE: 12
+CODE: public function deleteModulesByCode($code) {
+LINE: 42
+FILE: admin/model/design/layout.php
+CODE: $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "layout_module WHERE layout_id = '" . (int)$layout_id . "'");
+LINE: 110
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "layout_module WHERE layout_id = '" . (int)$layout_id . "'");
+LINE: 39
+FILE: catalog/controller/common/content_top.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/controller/common/content_bottom.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/controller/common/column_left.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/controller/common/column_right.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/model/design/layout.php
+CODE: $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "layout_route WHERE '" . $this->db->escape($route) . "' LIKE route AND store_id = '" . (int)$this->config->get('config_store_id') . "' ORDER BY route DESC LIMIT 1");
+LINE: 3
+CODE: $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "layout_module WHERE layout_id = '" . (int)$layout_id . "' AND position = '" . $this->db->escape($position) . "' ORDER BY sort_order");
+LINE: 13
+FILE: catalog/controller/product/product.php
+CODE: if ((float)$product_info['special']) {
+LINE: 320
+CODE: $data['products'][] = array(
+LINE: 448
+CODE: 'special'     => $special,
+LINE: 457
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 223
+CODE: 'special'     => $special,
+LINE: 232
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 224
+CODE: 'special'     => $special,
+LINE: 233
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 256
+CODE: 'special'     => $special,
+LINE: 265
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 141
+CODE: 'special'     => $special,
+LINE: 150
+FILE: catalog/controller/checkout/cart.php
+CODE: $json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name'], $this->url->link('checkout/cart'));
+LINE: 341
+FILE: catalog/controller/account/wishlist.php
+CODE: $json['total'] = sprintf($this->language->get('text_wishlist'), (isset($this->session->data['wishlist']) ? count($this->session->data['wishlist']) : 0));
+LINE: 173
+FILE: catalog/controller/product/compare.php
+CODE: $json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name'], $this->url->link('product/compare'));
+LINE: 194
+FILE: catalog/controller/common/cart.php
+CODE: $image = '';
+LINE: 59
+CODE: $image = '';
+LINE: 93
+CODE: $data['popup'] = '';
+LINE: 284
+CODE: $data['thumb'] = '';
+LINE: 290
+CODE: $data['manufacturer'] = $product_info['manufacturer'];
+LINE: 285
+CODE: $data['popup'] = $this->model_tool_image->resize($product_info['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'));
+LINE: 303
+CODE: $data['thumb'] = $this->model_tool_image->resize($product_info['image'], $this->config->get('config_image_thumb_width'), $this->config->get('config_image_thumb_height'));
+LINE: 310
+CODE: $this->model_tool_image->resize($option_value['image'], 50, 50),
+LINE: 382
+CODE: $this->load->model('catalog/product');
+LINE: 159
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 303
+CODE: 'thumb'       => $image,
+LINE: 487
+CODE: $this->load->model('catalog/product');
+LINE: 8
+LINE: 183
+CODE: 'thumb'        => $image,
+LINE: 121
+CODE: $this->load->model('catalog/product');
+LINE: 14
+LINE: 158
+CODE: 'thumb'      => $image,
+LINE: 113
+CODE: $this->load->model('catalog/product');
+LINE: 10
+CODE: 'thumb'       => $image,
+LINE: 231
+CODE: $this->load->model('catalog/product');
+LINE: 75
+CODE: 'thumb'       => $image,
+LINE: 232
+CODE: $this->load->model('catalog/product');
+LINE: 10
+CODE: 'thumb'       => $image,
+LINE: 264
+CODE: $this->load->model('catalog/product');
+LINE: 8
+CODE: 'thumb'       => $image,
+LINE: 149
+FILE: catalog/controller/module/bestseller.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 61
+FILE: catalog/controller/module/latest.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 68
+FILE: catalog/controller/module/special.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 68
+FILE: catalog/controller/module/featured.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 68
+CODE: $data['products'][] = array(
+LINE: 491
+CODE: 'thumb'       => $image,
+LINE: 496
+CODE: $data['products'][] = array(
+LINE: 235
+CODE: 'thumb'       => $image,
+LINE: 240
+CODE: $data['products'][] = array(
+LINE: 236
+CODE: 'thumb'       => $image,
+LINE: 241
+CODE: $data['products'][] = array(
+LINE: 268
+CODE: 'thumb'       => $image,
+LINE: 273
+CODE: $data['products'][] = array(
+LINE: 153
+CODE: 'thumb'       => $image,
+LINE: 158
+CODE: $data['products'][] = array(
+LINE: 65
+CODE: 'thumb'       => $image,
+LINE: 70
+CODE: $data['products'][] = array(
+LINE: 72
+CODE: 'thumb'       => $image,
+LINE: 77
+CODE: $data['products'][] = array(
+LINE: 72
+CODE: 'thumb'       => $image,
+LINE: 77
+CODE: $data['products'][] = array(
+LINE: 72
+CODE: 'thumb'       => $image,
+LINE: 77
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $output .= '</urlset>';
+LINE: 85
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($query->num_rows) {
+LINE: 42
+CODE: if ($url[0] == 'product_id') {
+LINE: 54
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 91
+CODE: public function rewrite($link) {
+LINE: 113
+CODE: $key == 'path'
+LINE: 153
+CODE: if ($url) {
+LINE: 177
+CODE: $layout_id = 0;
+LINE: 22
+CODE: $layout_id = 0;
+LINE: 22
+CODE: $layout_id = 0;
+LINE: 22
+CODE: $layout_id = 0;
+LINE: 22
+FILE: admin/controller/common/filemanager.php
+CODE: . 'catalog
+LINE: 13
+LINE: 15
+LINE: 70
+LINE: 212
+LINE: 214
+LINE: 295
+LINE: 297
+LINE: 351
+CODE: $name = str_split(basename($image), 14);
+LINE: 58
+CODE: } elseif (is_file($image)) {
+LINE: 79
+FILE: admin/view/template/common/filemanager.tpl
+CODE: <div class="modal-dialog modal-lg">
+LINE: 39
+CODE: $('a.directory').on('click', function(e) {
+LINE: 122
+CODE: //--></script>
+LINE: 306
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'], 'SSL')),
+LINE: 132
+CODE: public function unzip() {
+LINE: 282
+----------------------------------------------------------------
+MOD: Product Affilate
+CODE: public function index() {
+LINE: 10
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css');
+LINE: 240
+CODE: $data['tags'] = array();
+LINE: 691
+CODE: if ((float)$product_info['special']) {
+LINE: 363
+CODE: if ((float)$product_info['special']) {
+LINE: 55
+CODE: if ((float)$result['special']) {
+LINE: 55
+CODE: if ((float)$result['special']) {
+LINE: 53
+CODE: if ((float)$result['special']) {
+LINE: 46
+CODE: $data['products'][] = array(
+LINE: 383
+CODE: $data['products'][] = array(
+LINE: 406
+CODE: public function index() {
+LINE: 8
+CODE: public function index() {
+LINE: 13
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 38
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 58
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 208
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 390
+FILE: catalog/view/theme/journal2/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+NOT FOUND!
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+NOT FOUND!
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND!
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 54
+CODE: <?php echo $cart; ?>
+LINE: 98
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+LINE: 78
+CODE: <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
+LINE: 89
+FILE: catalog/view/theme/journal2/template/common/header.tpl
+CODE: </head>
+LINE: 118
+CODE: <?php echo $cart; ?>
+NOT FOUND!
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+NOT FOUND!
+CODE: <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/journal2/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: catalog/view/theme/journal2/template/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: catalog/view/theme/journal2/template/module/latest.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: admin/controller/catalog/product.php
+CODE: $data['product_options'] = array();
+LINE: 1276
+CODE: $data['tab_general'] = $this->language->get('tab_general');
+LINE: 631
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("DELETE FROM `" . DB_PREFIX . "product_recurring` WHERE product_id = " . (int)$product_id);
+LINE: 281
+CODE: $product_id = $this->db->getLastId();
+LINE: 20
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 956
+CODE: <?php echo $footer; ?>
+LINE: 1542
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_name']             = 'Product Name';
+LINE: 36
+----------------------------------------------------------------
+2015-05-17 21:20:26 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Journal2
+CODE: public function __construct($registry) {
+LINE: 15
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 14
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a class="parent"><?php echo $text_marketing; ?></a>
+LINE: 200
+FILE: admin/controller/marketing/contact.php
+CODE: $this->load->model('sale/customer');
+LINE: 98
+CODE: $email_total = $this->model_sale_customer->getTotalCustomers($customer_data);
+LINE: 124
+CODE: $results = $this->model_sale_customer->getCustomers($customer_data);
+LINE: 126
+FILE: admin/controller/tool/backup.php
+CODE: $this->error['warning'] = $this->language->get('error_empty');
+LINE: 25
+CODE: public function index() {
+LINE: 10
+FILE: admin/view/template/tool/backup.tpl
+CODE: <input type="file" name="import" id="input-import" />
+LINE: 36
+FILE: admin/model/tool/backup.php
+CODE: $values .= '\'' . $value . '\', ';
+LINE: 82
+CODE: $output .= 'TRUNCATE TABLE `' . $table . '`;' . "\n\n";
+LINE: 53
+CODE: $sql = trim($sql);
+LINE: 17
+FILE: catalog/controller/common/header.php
+CODE: $categories = $this->model_catalog_category->getCategories(0);
+LINE: 94
+FILE: catalog/controller/common/footer.php
+CODE: foreach ($this->model_catalog_information->getInformations() as $result) {
+LINE: 24
+FILE: system/library/response.php
+CODE: if ($this->output) {
+LINE: 83
+FILE: catalog/model/tool/image.php
+CODE: return $this->config->get('config_ssl') . 'image/' . $new_image;
+LINE: 37
+CODE: return $this->config->get('config_url') . 'image/' . $new_image;
+LINE: 39
+CODE: public function resize($filename, $width, $height) {
+LINE: 2
+CODE: $image->resize($width, $height);
+LINE: 29
+FILE: admin/model/extension/module.php
+CODE: $this->db->query("DELETE FROM `" . DB_PREFIX . "layout_module` WHERE `code` LIKE '%." . (int)$module_id . "'");
+LINE: 12
+CODE: public function deleteModulesByCode($code) {
+LINE: 42
+FILE: admin/model/design/layout.php
+CODE: $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "layout_module WHERE layout_id = '" . (int)$layout_id . "'");
+LINE: 110
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "layout_module WHERE layout_id = '" . (int)$layout_id . "'");
+LINE: 39
+FILE: catalog/controller/common/content_top.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/controller/common/content_bottom.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/controller/common/column_left.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/controller/common/column_right.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/model/design/layout.php
+CODE: $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "layout_route WHERE '" . $this->db->escape($route) . "' LIKE route AND store_id = '" . (int)$this->config->get('config_store_id') . "' ORDER BY route DESC LIMIT 1");
+LINE: 3
+CODE: $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "layout_module WHERE layout_id = '" . (int)$layout_id . "' AND position = '" . $this->db->escape($position) . "' ORDER BY sort_order");
+LINE: 13
+FILE: catalog/controller/product/product.php
+CODE: if ((float)$product_info['special']) {
+LINE: 320
+CODE: $data['products'][] = array(
+LINE: 448
+CODE: 'special'     => $special,
+LINE: 457
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 223
+CODE: 'special'     => $special,
+LINE: 232
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 224
+CODE: 'special'     => $special,
+LINE: 233
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 256
+CODE: 'special'     => $special,
+LINE: 265
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 141
+CODE: 'special'     => $special,
+LINE: 150
+FILE: catalog/controller/checkout/cart.php
+CODE: $json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name'], $this->url->link('checkout/cart'));
+LINE: 341
+FILE: catalog/controller/account/wishlist.php
+CODE: $json['total'] = sprintf($this->language->get('text_wishlist'), (isset($this->session->data['wishlist']) ? count($this->session->data['wishlist']) : 0));
+LINE: 173
+FILE: catalog/controller/product/compare.php
+CODE: $json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name'], $this->url->link('product/compare'));
+LINE: 194
+FILE: catalog/controller/common/cart.php
+CODE: $image = '';
+LINE: 59
+CODE: $image = '';
+LINE: 93
+CODE: $data['popup'] = '';
+LINE: 284
+CODE: $data['thumb'] = '';
+LINE: 290
+CODE: $data['manufacturer'] = $product_info['manufacturer'];
+LINE: 285
+CODE: $data['popup'] = $this->model_tool_image->resize($product_info['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'));
+LINE: 303
+CODE: $data['thumb'] = $this->model_tool_image->resize($product_info['image'], $this->config->get('config_image_thumb_width'), $this->config->get('config_image_thumb_height'));
+LINE: 310
+CODE: $this->model_tool_image->resize($option_value['image'], 50, 50),
+LINE: 382
+CODE: $this->load->model('catalog/product');
+LINE: 159
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 303
+CODE: 'thumb'       => $image,
+LINE: 487
+CODE: $this->load->model('catalog/product');
+LINE: 8
+LINE: 183
+CODE: 'thumb'        => $image,
+LINE: 121
+CODE: $this->load->model('catalog/product');
+LINE: 14
+LINE: 158
+CODE: 'thumb'      => $image,
+LINE: 113
+CODE: $this->load->model('catalog/product');
+LINE: 10
+CODE: 'thumb'       => $image,
+LINE: 231
+CODE: $this->load->model('catalog/product');
+LINE: 75
+CODE: 'thumb'       => $image,
+LINE: 232
+CODE: $this->load->model('catalog/product');
+LINE: 10
+CODE: 'thumb'       => $image,
+LINE: 264
+CODE: $this->load->model('catalog/product');
+LINE: 8
+CODE: 'thumb'       => $image,
+LINE: 149
+FILE: catalog/controller/module/bestseller.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 61
+FILE: catalog/controller/module/latest.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 68
+FILE: catalog/controller/module/special.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 68
+FILE: catalog/controller/module/featured.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 68
+CODE: $data['products'][] = array(
+LINE: 491
+CODE: 'thumb'       => $image,
+LINE: 496
+CODE: $data['products'][] = array(
+LINE: 235
+CODE: 'thumb'       => $image,
+LINE: 240
+CODE: $data['products'][] = array(
+LINE: 236
+CODE: 'thumb'       => $image,
+LINE: 241
+CODE: $data['products'][] = array(
+LINE: 268
+CODE: 'thumb'       => $image,
+LINE: 273
+CODE: $data['products'][] = array(
+LINE: 153
+CODE: 'thumb'       => $image,
+LINE: 158
+CODE: $data['products'][] = array(
+LINE: 65
+CODE: 'thumb'       => $image,
+LINE: 70
+CODE: $data['products'][] = array(
+LINE: 72
+CODE: 'thumb'       => $image,
+LINE: 77
+CODE: $data['products'][] = array(
+LINE: 72
+CODE: 'thumb'       => $image,
+LINE: 77
+CODE: $data['products'][] = array(
+LINE: 72
+CODE: 'thumb'       => $image,
+LINE: 77
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $output .= '</urlset>';
+LINE: 85
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($query->num_rows) {
+LINE: 42
+CODE: if ($url[0] == 'product_id') {
+LINE: 54
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 91
+CODE: public function rewrite($link) {
+LINE: 113
+CODE: $key == 'path'
+LINE: 153
+CODE: if ($url) {
+LINE: 177
+CODE: $layout_id = 0;
+LINE: 22
+CODE: $layout_id = 0;
+LINE: 22
+CODE: $layout_id = 0;
+LINE: 22
+CODE: $layout_id = 0;
+LINE: 22
+FILE: admin/controller/common/filemanager.php
+CODE: . 'catalog
+LINE: 13
+LINE: 15
+LINE: 70
+LINE: 212
+LINE: 214
+LINE: 295
+LINE: 297
+LINE: 351
+CODE: $name = str_split(basename($image), 14);
+LINE: 58
+CODE: } elseif (is_file($image)) {
+LINE: 79
+FILE: admin/view/template/common/filemanager.tpl
+CODE: <div class="modal-dialog modal-lg">
+LINE: 39
+CODE: $('a.directory').on('click', function(e) {
+LINE: 122
+CODE: //--></script>
+LINE: 306
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'], 'SSL')),
+LINE: 132
+CODE: public function unzip() {
+LINE: 282
+----------------------------------------------------------------
+MOD: Product Affilate
+CODE: public function index() {
+LINE: 10
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css');
+LINE: 240
+CODE: $data['tags'] = array();
+LINE: 691
+CODE: if ((float)$product_info['special']) {
+LINE: 363
+CODE: if ((float)$product_info['special']) {
+LINE: 55
+CODE: if ((float)$result['special']) {
+LINE: 55
+CODE: if ((float)$result['special']) {
+LINE: 53
+CODE: if ((float)$result['special']) {
+LINE: 46
+CODE: $data['products'][] = array(
+LINE: 383
+CODE: $data['products'][] = array(
+LINE: 406
+CODE: public function index() {
+LINE: 8
+CODE: public function index() {
+LINE: 13
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 38
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 58
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 208
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 390
+FILE: catalog/view/theme/journal2/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+NOT FOUND!
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+NOT FOUND!
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND!
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 54
+CODE: <?php echo $cart; ?>
+LINE: 98
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+LINE: 78
+CODE: <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
+LINE: 89
+FILE: catalog/view/theme/journal2/template/common/header.tpl
+CODE: </head>
+LINE: 118
+CODE: <?php echo $cart; ?>
+NOT FOUND!
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+NOT FOUND!
+CODE: <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/journal2/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: catalog/view/theme/journal2/template/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: catalog/view/theme/journal2/template/module/latest.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: admin/controller/catalog/product.php
+CODE: $data['product_options'] = array();
+LINE: 1276
+CODE: $data['tab_general'] = $this->language->get('tab_general');
+LINE: 631
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("DELETE FROM `" . DB_PREFIX . "product_recurring` WHERE product_id = " . (int)$product_id);
+LINE: 281
+CODE: $product_id = $this->db->getLastId();
+LINE: 20
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 956
+CODE: <?php echo $footer; ?>
+LINE: 1542
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_name']             = 'Product Name';
+LINE: 36
+----------------------------------------------------------------
+2015-05-23 20:52:19 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: Journal2
+CODE: public function __construct($registry) {
+LINE: 15
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 14
+FILE: admin/view/template/common/menu.tpl
+CODE: <li><a class="parent"><?php echo $text_marketing; ?></a>
+LINE: 200
+FILE: admin/controller/marketing/contact.php
+CODE: $this->load->model('sale/customer');
+LINE: 98
+CODE: $email_total = $this->model_sale_customer->getTotalCustomers($customer_data);
+LINE: 124
+CODE: $results = $this->model_sale_customer->getCustomers($customer_data);
+LINE: 126
+FILE: admin/controller/tool/backup.php
+CODE: $this->error['warning'] = $this->language->get('error_empty');
+LINE: 25
+CODE: public function index() {
+LINE: 10
+FILE: admin/view/template/tool/backup.tpl
+CODE: <input type="file" name="import" id="input-import" />
+LINE: 36
+FILE: admin/model/tool/backup.php
+CODE: $values .= '\'' . $value . '\', ';
+LINE: 82
+CODE: $output .= 'TRUNCATE TABLE `' . $table . '`;' . "\n\n";
+LINE: 53
+CODE: $sql = trim($sql);
+LINE: 17
+FILE: catalog/controller/common/header.php
+CODE: $categories = $this->model_catalog_category->getCategories(0);
+LINE: 94
+FILE: catalog/controller/common/footer.php
+CODE: foreach ($this->model_catalog_information->getInformations() as $result) {
+LINE: 24
+FILE: system/library/response.php
+CODE: if ($this->output) {
+LINE: 83
+FILE: catalog/model/tool/image.php
+CODE: return $this->config->get('config_ssl') . 'image/' . $new_image;
+LINE: 37
+CODE: return $this->config->get('config_url') . 'image/' . $new_image;
+LINE: 39
+CODE: public function resize($filename, $width, $height) {
+LINE: 2
+CODE: $image->resize($width, $height);
+LINE: 29
+FILE: admin/model/extension/module.php
+CODE: $this->db->query("DELETE FROM `" . DB_PREFIX . "layout_module` WHERE `code` LIKE '%." . (int)$module_id . "'");
+LINE: 12
+CODE: public function deleteModulesByCode($code) {
+LINE: 42
+FILE: admin/model/design/layout.php
+CODE: $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "layout_module WHERE layout_id = '" . (int)$layout_id . "'");
+LINE: 110
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "layout_module WHERE layout_id = '" . (int)$layout_id . "'");
+LINE: 39
+FILE: catalog/controller/common/content_top.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/controller/common/content_bottom.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/controller/common/column_left.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/controller/common/column_right.php
+CODE: $part = explode('.', $module['code']);
+LINE: 63
+FILE: catalog/model/design/layout.php
+CODE: $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "layout_route WHERE '" . $this->db->escape($route) . "' LIKE route AND store_id = '" . (int)$this->config->get('config_store_id') . "' ORDER BY route DESC LIMIT 1");
+LINE: 3
+CODE: $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "layout_module WHERE layout_id = '" . (int)$layout_id . "' AND position = '" . $this->db->escape($position) . "' ORDER BY sort_order");
+LINE: 13
+FILE: catalog/controller/product/product.php
+CODE: if ((float)$product_info['special']) {
+LINE: 320
+CODE: $data['products'][] = array(
+LINE: 448
+CODE: 'special'     => $special,
+LINE: 457
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 223
+CODE: 'special'     => $special,
+LINE: 232
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 224
+CODE: 'special'     => $special,
+LINE: 233
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 256
+CODE: 'special'     => $special,
+LINE: 265
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 141
+CODE: 'special'     => $special,
+LINE: 150
+FILE: catalog/controller/checkout/cart.php
+CODE: $json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name'], $this->url->link('checkout/cart'));
+LINE: 341
+FILE: catalog/controller/account/wishlist.php
+CODE: $json['total'] = sprintf($this->language->get('text_wishlist'), (isset($this->session->data['wishlist']) ? count($this->session->data['wishlist']) : 0));
+LINE: 173
+FILE: catalog/controller/product/compare.php
+CODE: $json['success'] = sprintf($this->language->get('text_success'), $this->url->link('product/product', 'product_id=' . $this->request->post['product_id']), $product_info['name'], $this->url->link('product/compare'));
+LINE: 194
+FILE: catalog/controller/common/cart.php
+CODE: $image = '';
+LINE: 59
+CODE: $image = '';
+LINE: 93
+CODE: $data['popup'] = '';
+LINE: 284
+CODE: $data['thumb'] = '';
+LINE: 290
+CODE: $data['manufacturer'] = $product_info['manufacturer'];
+LINE: 285
+CODE: $data['popup'] = $this->model_tool_image->resize($product_info['image'], $this->config->get('config_image_popup_width'), $this->config->get('config_image_popup_height'));
+LINE: 303
+CODE: $data['thumb'] = $this->model_tool_image->resize($product_info['image'], $this->config->get('config_image_thumb_width'), $this->config->get('config_image_thumb_height'));
+LINE: 310
+CODE: $this->model_tool_image->resize($option_value['image'], 50, 50),
+LINE: 382
+CODE: $this->load->model('catalog/product');
+LINE: 159
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 303
+CODE: 'thumb'       => $image,
+LINE: 487
+CODE: $this->load->model('catalog/product');
+LINE: 8
+LINE: 183
+CODE: 'thumb'        => $image,
+LINE: 121
+CODE: $this->load->model('catalog/product');
+LINE: 14
+LINE: 158
+CODE: 'thumb'      => $image,
+LINE: 113
+CODE: $this->load->model('catalog/product');
+LINE: 10
+CODE: 'thumb'       => $image,
+LINE: 231
+CODE: $this->load->model('catalog/product');
+LINE: 75
+CODE: 'thumb'       => $image,
+LINE: 232
+CODE: $this->load->model('catalog/product');
+LINE: 10
+CODE: 'thumb'       => $image,
+LINE: 264
+CODE: $this->load->model('catalog/product');
+LINE: 8
+CODE: 'thumb'       => $image,
+LINE: 149
+FILE: catalog/controller/module/bestseller.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 61
+FILE: catalog/controller/module/latest.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 68
+FILE: catalog/controller/module/special.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 68
+FILE: catalog/controller/module/featured.php
+CODE: $this->load->model('catalog/product');
+LINE: 16
+CODE: 'thumb'       => $image,
+LINE: 68
+CODE: $data['products'][] = array(
+LINE: 491
+CODE: 'thumb'       => $image,
+LINE: 496
+CODE: $data['products'][] = array(
+LINE: 235
+CODE: 'thumb'       => $image,
+LINE: 240
+CODE: $data['products'][] = array(
+LINE: 236
+CODE: 'thumb'       => $image,
+LINE: 241
+CODE: $data['products'][] = array(
+LINE: 268
+CODE: 'thumb'       => $image,
+LINE: 273
+CODE: $data['products'][] = array(
+LINE: 153
+CODE: 'thumb'       => $image,
+LINE: 158
+CODE: $data['products'][] = array(
+LINE: 65
+CODE: 'thumb'       => $image,
+LINE: 70
+CODE: $data['products'][] = array(
+LINE: 72
+CODE: 'thumb'       => $image,
+LINE: 77
+CODE: $data['products'][] = array(
+LINE: 72
+CODE: 'thumb'       => $image,
+LINE: 77
+CODE: $data['products'][] = array(
+LINE: 72
+CODE: 'thumb'       => $image,
+LINE: 77
+FILE: catalog/controller/feed/google_sitemap.php
+CODE: $output .= '</urlset>';
+LINE: 85
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($query->num_rows) {
+LINE: 42
+CODE: if ($url[0] == 'product_id') {
+LINE: 54
+CODE: if (!isset($this->request->get['route'])) {
+LINE: 91
+CODE: public function rewrite($link) {
+LINE: 113
+CODE: $key == 'path'
+LINE: 153
+CODE: if ($url) {
+LINE: 177
+CODE: $layout_id = 0;
+LINE: 22
+CODE: $layout_id = 0;
+LINE: 22
+CODE: $layout_id = 0;
+LINE: 22
+CODE: $layout_id = 0;
+LINE: 22
+FILE: admin/controller/common/filemanager.php
+CODE: . 'catalog
+LINE: 13
+LINE: 15
+LINE: 70
+LINE: 212
+LINE: 214
+LINE: 295
+LINE: 297
+LINE: 351
+CODE: $name = str_split(basename($image), 14);
+LINE: 58
+CODE: } elseif (is_file($image)) {
+LINE: 79
+FILE: admin/view/template/common/filemanager.tpl
+CODE: <div class="modal-dialog modal-lg">
+LINE: 39
+CODE: $('a.directory').on('click', function(e) {
+LINE: 122
+CODE: //--></script>
+LINE: 306
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'], 'SSL')),
+LINE: 132
+CODE: public function unzip() {
+LINE: 282
+----------------------------------------------------------------
+MOD: Product Affilate
+CODE: public function index() {
+LINE: 10
+CODE: $this->document->addStyle('catalog/view/javascript/jquery/datetimepicker/bootstrap-datetimepicker.min.css');
+LINE: 240
+CODE: $data['tags'] = array();
+LINE: 691
+CODE: if ((float)$product_info['special']) {
+LINE: 363
+CODE: if ((float)$product_info['special']) {
+LINE: 55
+CODE: if ((float)$result['special']) {
+LINE: 55
+CODE: if ((float)$result['special']) {
+LINE: 53
+CODE: if ((float)$result['special']) {
+LINE: 46
+CODE: $data['products'][] = array(
+LINE: 383
+CODE: $data['products'][] = array(
+LINE: 406
+CODE: public function index() {
+LINE: 8
+CODE: public function index() {
+LINE: 13
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 38
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 58
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 208
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 390
+FILE: catalog/view/theme/journal2/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+NOT FOUND!
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+NOT FOUND!
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND!
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 54
+CODE: <?php echo $cart; ?>
+LINE: 98
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+LINE: 78
+CODE: <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
+LINE: 89
+FILE: catalog/view/theme/journal2/template/common/header.tpl
+CODE: </head>
+LINE: 118
+CODE: <?php echo $cart; ?>
+NOT FOUND!
+CODE: <li><a href="<?php echo $shopping_cart; ?>" title="<?php echo $text_shopping_cart; ?>"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_shopping_cart; ?></span></a></li>
+NOT FOUND!
+CODE: <li><a href="<?php echo $checkout; ?>" title="<?php echo $text_checkout; ?>"><i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $text_checkout; ?></span></a></li>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/journal2/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: catalog/view/theme/journal2/template/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: catalog/view/theme/default/template/module/latest.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+FILE: catalog/view/theme/journal2/template/module/latest.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND!
+FILE: admin/controller/catalog/product.php
+CODE: $data['product_options'] = array();
+LINE: 1276
+CODE: $data['tab_general'] = $this->language->get('tab_general');
+LINE: 631
+FILE: admin/model/catalog/product.php
+CODE: $this->db->query("DELETE FROM `" . DB_PREFIX . "product_recurring` WHERE product_id = " . (int)$product_id);
+LINE: 281
+CODE: $product_id = $this->db->getLastId();
+LINE: 20
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane" id="tab-design">
+LINE: 956
+CODE: <?php echo $footer; ?>
+LINE: 1542
+FILE: admin/language/english/catalog/product.php
+CODE: $_['entry_name']             = 'Product Name';
+LINE: 36
+----------------------------------------------------------------
